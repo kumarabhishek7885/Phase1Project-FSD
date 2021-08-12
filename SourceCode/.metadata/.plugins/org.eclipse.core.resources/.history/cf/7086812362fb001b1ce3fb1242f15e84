@@ -75,7 +75,7 @@ public class LockedMeProject
 	{
 		System.out.println("FILES LIST IS BELOW:");
 		for(String f:fileNames)
-			System.out.println(f);
+	    System.out.println(f);
 	}
 	}
 	
@@ -108,7 +108,7 @@ public class LockedMeProject
 				//Saving the content into the file
 				boolean isSaved= FileManager.createFiles(folderpath, fileName, content);
 				if(isSaved)
-					System.out.println("File and Data Saved Successfully");
+					System.out.println("File and Data Svaed Successfully");
 				else
 					System.out.println("Some error occured. please contact Kumar.abhishek7885@gmail.com ");
 	}
