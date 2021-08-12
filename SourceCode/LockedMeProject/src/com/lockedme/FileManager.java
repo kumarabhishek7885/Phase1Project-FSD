@@ -48,9 +48,8 @@ public class FileManager
 			
 			//Writing to file
 			for(String s:content)
-			{
 				fw.write(s+"\n");
-			}
+			
 			fw.close();
 			return true;
 		}
