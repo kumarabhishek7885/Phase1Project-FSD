@@ -88,10 +88,15 @@ public class LockedMeProject
 			System.out.println("FILES LIST IS BELOW:\n");
 		
 		//Sorting file names in ascending order
-		Collections.sort(fileNames);
+		List<String> sortedList = new ArrayList<String>();
+		
+		
+		for(String str:fileNames)
+			sortedList.add(str.toLowerCase());
+				Collections.sort(sortedList);
 		
 		//Printing O/P to console
-		for(String f:fileNames)
+		for(String f:sortedList)
 		System.out.println(f);
 		System.out.println();
 	
